@@ -1,0 +1,18 @@
+W01 Reading Notes, Questions and Report
+
+Report:
+1. What did I do since the last meeting?
+Created repository for my portfolio in the class.
+Read through Doing stuff with web things book and studied the files along with it.
+Also, I completed the practice exercises from the book.
+2. What am I going to do next?
+Clean up the repository and better organize with specific folders.
+3. What are my blockers?
+Committing changes to my repo, I'm not sure when I should do that in order to properly 
+track my updates.
+
+Reading Questions:
+How much can be stored in localStorage?
+Can localStorage store multiple things from different sessions?
+When should an associative array be used instead of a standard array?
+How can you make the image that is clickable react(press down) on user click?
