@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array Practice</title>
+</head>
+
+<body>
+    <script>
+        for (let i = 0; i < colors.length; i++) {
+            console.dir(colors);
+            console.log(colors);
+            console.log(colors[i]);
+        }
+
+        //forEach
+        colors.array.forEach(function(item, index) {
+            console.log(index, item);
+        });
+        //below is the same as above just uses arrow function
+        colors.array.forEach((item, index) => {
+            console.log(index, item);
+        });
+        //non inline function below
+        function stuff(item, index) {
+            console.log(index, item);
+        }
+        colors.forEach(stuff);
+
+        //example of map: negative numbers
+        const newArray = colors.map()
+
+        
+    </script>
+</body>
+
+</html>
