@@ -10,6 +10,15 @@
 
 <body>
     <script>
+        //practice array
+        const colors = ["red", "blue", "green", "orange"];
+        
+        const adjectives = ["bold", "shy", "strong", "lazy", "young", "old"];
+
+        const nouns = ["apple", "bike", "computer", "bread", "bag"];
+
+        const numbers = [1, 4, 7, 12, 13, 34, 45, 266, 4234];
+
         for (let i = 0; i < colors.length; i++) {
             console.dir(colors);
             console.log(colors);
@@ -31,9 +40,17 @@
         colors.forEach(stuff);
 
         //example of map: negative numbers
-        const newArray = colors.map()
+        const newArray = colors.map((color) => {
+            return 'light' + color;
+        });
+        console.log(newArray);
+        const negative = numbers.map(number => {
+            if(number < 50)
+                return number * -1;
+                else return number;
+        });
+        console.log(negative);
 
-        
     </script>
 </body>
 
