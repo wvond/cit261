@@ -17,6 +17,8 @@
 
         const nouns = ["apple", "bike", "computer", "bread", "bag"];
 
+        const verbs = ["jumped", "walked", "breaking", "eating"]
+
         const numbers = [1, 4, 7, 12, 13, 34, 45, 266, 4234];
 
         for (let i = 0; i < colors.length; i++) {
@@ -25,7 +27,7 @@
             console.log(colors[i]);
         }
 
-        //forEach
+        /* //forEach
         colors.array.forEach(function(item, index) {
             console.log(index, item);
         });
@@ -37,7 +39,7 @@
         function stuff(item, index) {
             console.log(index, item);
         }
-        colors.forEach(stuff);
+        colors.forEach(stuff); */
 
         //example of map: negative numbers
         const newArray = colors.map((color) => {
@@ -59,7 +61,15 @@
             return Math.floor(Math.random() * num) + 1;
         };
 
-        
+        //create a function to pick random words and create a function.
+        function randomWord(arr) {
+            return Math.floor(Math.random(arr.length));
+        };
+        function randomSentence() {
+            const sentence = "The " + adjectives[randomWord(adjectives)] + " " + nouns[randomWord(nouns)] + " " + verbs[randomWord(verbs)] + ".";
+            console.log(sentence);
+        };
+        randomSentence();
 
     </script>
 </body>
