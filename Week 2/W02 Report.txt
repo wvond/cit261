@@ -1,0 +1,37 @@
+W02 Reading Notes, Questions and Report
+
+Report:
+1. What did I do since the last meeting?
+I worked this week to organize my portfolio and ensure that my git 
+was syncing properly to my portfolio repository.
+2. What am I going to do next?
+I am going to begin to import other projects into my portfolio to make it a true 
+example of my work through projects and assignments.  I am also going to complete 
+more of the stretch challenges next week in the team activity.
+3. What are my blockers?
+My blockers for this week are going to be comprehending the next section of readings.
+As well, I need to ensure that I have time outside of class to meet with my team so
+we can complete the team activity on time.
+
+Reading Questions:
+When is it best to use template literals?
+What is the recommended way to use number methods?
+Do arrays need to be destructed always?
+What is the difference between concat and join?
+Is a weak set always required to avoid memory leaks?
+When should an arrow function be used over a normal call?
+
+
+Reading Notes:
+-When a function is not defined, it is within a block(a series of statements inside {}).
+-Non-primitive data types return 'object'.
+-use 'const' and 'let' to declare variables.
+-'const' and 'let' are block scoped variables.
+-for a global variable don't use 'let' or 'const'.
+-hex, octal and binary are supported in ES6.
+-arrays has operations similar to stack.
+-Ternary operators are better than an if-else statement.
+-Infinite loops are especially bad in public facing code.
+-For-Of loops can be used to loop over an array.
+-Sets and maps are enumerable, so can also be looped over using a for-of loop.
+-A callback is a function that is provided as an argument to another function.
