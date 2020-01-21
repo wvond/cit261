@@ -1,0 +1,16 @@
+W02 Reading Notes, Questions and Report
+
+Report:
+1. What did I do since the last meeting?
+
+2. What am I going to do next?
+
+3. What are my blockers?
+
+
+Reading Questions:
+
+
+Reading Notes:
+-var should be avoided because it doesn't always die within the block it is created in.
+-let is preferred to avoid memory leaking.
