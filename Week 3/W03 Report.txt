@@ -14,3 +14,4 @@ Reading Questions:
 Reading Notes:
 -var should be avoided because it doesn't always die within the block it is created in.
 -let is preferred to avoid memory leaking.
+-use ticks to build html functions for output
