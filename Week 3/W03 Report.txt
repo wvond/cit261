@@ -2,16 +2,33 @@ W02 Reading Notes, Questions and Report
 
 Report:
 1. What did I do since the last meeting?
-
+This week I focused on improving my understanding of ES and working with the arrays.  I also focused on helping my group by talking 
+through things rather than just quietly following along with the assignment.
 2. What am I going to do next?
-
+This week I will complete more of the sandbox code as well as get ahead on the reading to be better prepared for the activities rather 
+than reading after the lecture sessions. 
 3. What are my blockers?
-
+My blockers this week will be time management with the amount of reading and ensuring I dedicate enough time to completing the 
+sandbox activities for the week.
 
 Reading Questions:
-
+Is there another object reference, similar to 'this'?
+Is it better to use dot notation or bracket when calling a method?
+When should you use the Math over using your own calculations built in locally?
+Is it better to use jQuery or regular dot notation to access elements?
+Is inline event or listeners more functional to use?
 
 Reading Notes:
 -var should be avoided because it doesn't always die within the block it is created in.
 -let is preferred to avoid memory leaking.
 -use ticks to build html functions for output
+-this is an unboud way to reference a variable
+-ES6 has a shorthand way to create objects: object name = {name, realName};
+-properties that don't exist are undefined
+-JSON.parse() will convert a string to a JS object
+-JSON.stringify() does the opposite of above
+-Math, Date, RegExp are all built in
+-jQuery can help to retrieve DOM elements.
+-avoid touchstart as it causes a lot of false positives
+-swipes are made with touchstart, touchmove, and touchleave events
+-
