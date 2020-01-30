@@ -9,12 +9,15 @@ Report:
 
 
 Reading Questions:
+When does the defer tag need to be left off?
+Do you only need a this.function call when the function definition is within the class?
 
 
 Reading Notes:
 -defer tag must be used to download js file to the page before loading the rest of the page.
 -Non default export uses export before the function tag and definition.
--use 'import{qs, qsa} from 'directory/file.js'' to import one of the module exports.
+-use 'import{function1, function2} from 'directory/file.js'' to import one of the module exports.
 -to use the import keyword, must add 'type="module"' to the script tag.
 -Modules are automatically deferred.
+-must use this.function to call a function in the scope of the class, otherwise it will look for global function.
 -
