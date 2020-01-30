@@ -12,4 +12,9 @@ Reading Questions:
 
 
 Reading Notes:
+-defer tag must be used to download js file to the page before loading the rest of the page.
+-Non default export uses export before the function tag and definition.
+-use 'import{qs, qsa} from 'directory/file.js'' to import one of the module exports.
+-to use the import keyword, must add 'type="module"' to the script tag.
+-Modules are automatically deferred.
 -
