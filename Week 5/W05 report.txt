@@ -1,0 +1,31 @@
+W05 Reading Notes, Questions and Report
+
+Report:
+1. What did I do since the last meeting?
+This week I worked a lot on the team activity to get that working properly.
+2. What am I going to do next?
+Next, I will be doing more of the sandbox exercises as well, I hope to 
+work on the team activity before Tuesday's class to better prepare for the 
+activity with me group.
+3. What are my blockers?
+My blockers this week will be understanding the reading and new assignments
+as I struggled to pick up last weeks concepts very quickly.
+
+Reading Questions:
+Is it always better to use strict mode?
+Should alerts be avoided when possible?
+Is it better to use a throw or try/catch?
+Should feature detection always be used?
+
+Reading Notes:
+-exceptions are errors that produce a return value to help 
+error handle.
+-strict mode can help warn of deprecated js code in the program.
+-Alerts are to be used as breakpoints 
+-console.trace() can be used to track the functions that were called
+before an exception was thrown.
+-Debugger command can be used to show the value of variables within
+a function.
+-finally can be used after try/catch to be executed after the try or catch
+-Jest is made to help TDD
+-
