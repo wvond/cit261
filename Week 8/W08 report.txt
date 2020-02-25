@@ -1,0 +1,15 @@
+W08 Reading Notes, Questions and Report
+
+Report:
+1. What did I do since the last meeting?
+
+2. What am I going to do next?
+
+3. What are my blockers?
+
+
+Reading Questions:
+Is it better to use an async function or .then?
+
+Reading Notes:
+-
