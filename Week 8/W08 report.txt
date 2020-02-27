@@ -11,5 +11,11 @@ Report:
 Reading Questions:
 Is it better to use an async function or .then?
 
+
 Reading Notes:
+-use transition in css to make changes to html doc
+-transition goes in the base state
+-transform can be used in @keyframes
+-use transform-origin to alter where the transform occurs.
+-keep the css in there as much as possible and use the js to implement classes and do simple things
 -
