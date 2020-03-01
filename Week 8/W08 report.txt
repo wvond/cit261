@@ -2,15 +2,19 @@ W08 Reading Notes, Questions and Report
 
 Report:
 1. What did I do since the last meeting?
-
+I worked on my team assignment and added some things to my to do app. I also worked to remove jquery from the app to 
+ensure I built it all on my own.
 2. What am I going to do next?
-
+This week I will work to master the transform and transitions on the js. Also I plan to meet all the stretch goals with my group.
 3. What are my blockers?
+My blockers this week are understanding the new material and ensuring my callback funtions are working properly.
 
 
 Reading Questions:
 Is it better to use an async function or .then?
-
+When should const be used over let in a url string?
+Should transform be used before transition?
+Is transition to be used in parent class?
 
 Reading Notes:
 -use transition in css to make changes to html doc
@@ -18,4 +22,3 @@ Reading Notes:
 -transform can be used in @keyframes
 -use transform-origin to alter where the transform occurs.
 -keep the css in there as much as possible and use the js to implement classes and do simple things
--
