@@ -2,14 +2,36 @@ W09 Reading Notes, Questions and Report
 
 Report:
 1. What did I do since the last meeting?
-
+I worked on the team activity and class activities for the week.
 2. What am I going to do next?
-
+Next, I will begin to work on my 2nd block project and complete the weekly reading.
 3. What are my blockers?
-
+My blockers this week are going to be getting my project planned out and figuring out 
+the most effective way to go about starting it.
 
 
 Reading Questions:
+How long should cookies last to be effective?
+When should popup windows be used?
+Why are there window.alert, .confirm, etc. if they're not user friendly to use?
+How long will localStorage keep the stored data?
 
 
 Reading Notes:
+-use the window object to prompt or alert the user of things.
+-window.location returns the url as a string
+-window.history.go() can navigate forward and back through the history
+-window.open will open a link in a new window
+-.close will close the popup window
+-use .cookie to create cookies
+-adding new info to cookies will append the new value to the current string
+-for of loop can read a cookie
+-cookies auto expire at the end of the session unless they are set to a different time
+-animation effects can be done in javascript or in css
+-geolocation will request position of the device
+-window.notification will allow the site to send notifications
+-<audio> and <video> tags will allow the video or audio to play or if it does not
+work it will show the text inside the tags.
+-access those elements using a getelementbytagname
+-can make buttons to play, pause, volume, skip, etc. the video/audio
+-canvas allows drawings to be made on the doc

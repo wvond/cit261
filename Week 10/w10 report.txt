@@ -1,0 +1,20 @@
+W10 Reading Notes, Questions and Report
+
+Report:
+1. What did I do since the last meeting?
+
+2. What am I going to do next?
+
+3. What are my blockers?
+
+
+
+Reading Questions:
+
+
+Reading Notes:
+-API keys should not be stored in a public place like github
+-use .gitignore to not upload sensitive or large files to github
+-use export to make the module reusable
+-controller connect model and view as the glue between them
+-
