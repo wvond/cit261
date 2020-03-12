@@ -1,6 +1,6 @@
 
-export function getJSON(url) {
-    return fetch(url)
+export function getJSON(url, options = null) {
+    return fetch(url, options)
         .then(function (response) {
             if (!response.ok) {
                 throw Error(response.statusText);
