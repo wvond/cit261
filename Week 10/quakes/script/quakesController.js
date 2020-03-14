@@ -28,9 +28,10 @@ export default class QuakesController {
     if (this.position.lat === 0) {
       try {
         // try to get the position using getLocation()
-        await getLocation();
+        const posFull = await getLocation();
         // if we get the location back then set the latitude and longitude into this.position
-        
+        this.position.lat = posFull.coords.latitude;
+        this.position.lon = posFull.coords.longitude;
       } catch (error) {
         console.log(error);
       }
@@ -55,6 +56,7 @@ export default class QuakesController {
   }
   async getQuakeDetails(quakeId) {
     // get the details for the quakeId provided from the model, then send them to the view to be displayed
-   
+    const quake = this.quakes.getQuakeById(quakeId);
+    this.quakesView.renderQuake(quake, this.parentElement);
   }
 }

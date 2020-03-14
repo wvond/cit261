@@ -2,14 +2,21 @@ W10 Reading Notes, Questions and Report
 
 Report:
 1. What did I do since the last meeting?
-
+I decided on my project and I figured out how I am going to access the API.
 2. What am I going to do next?
-
+Next, I will follow my plan to begin my project and meet the checkpoints in my proposal
+as well as working on the team activity with my group remotely this week.
 3. What are my blockers?
-
+My blockers will be finding a time to meet with my group but other than that I should be able
+to do get a lot of my project done next week.
 
 
 Reading Questions:
+Is there a way to wait to call the api until the form is submitted?
+Does css default to the regular style if there is :invalid but no :valid?
+Is the Constraint Validation API required for client side?
+Should the credentials: 'omit' always be used when you don't want to send credentials?
+Can you only use POST to upload files?
 
 
 Reading Notes:
@@ -17,4 +24,13 @@ Reading Notes:
 -use .gitignore to not upload sensitive or large files to github
 -use export to make the module reusable
 -controller connect model and view as the glue between them
--
+-strings are similar to an array and have a .length property
+-html5 has built in type for form validation
+-pattern="reg expression" will allow inline validation
+-js .setCustomValidity can customize error messages
+-display explicit error messages
+-be permissive about the input format
+-point out exactly where the error occurs, especially on large forms
+-fetch returns a promise resolved normally even if its a 404 or 500 res
+-fetch blocks cross site cookies
+-fetch won't send cookies unless included with credentials init option

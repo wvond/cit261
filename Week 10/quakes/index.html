@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8" />
-        <title>Local Quakes</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script defer src="./script/index.js" type="module"></script>
-    </head>
 
-    <body>
-        <main>
-            <h1>Quake List</h1>
-            <ul id="quakeList" ></ul>
-        </main>
-    </body>
+<head>
+    <meta charset="utf-8" />
+    <title>Local Quakes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script defer src="./script/index.js" type="module"></script>
+    <style>
+        .quakeStyles {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .quakeStyles li {
+            margin: 0.5em 0;
+        }
+
+        .quakeStyles div {
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Quake List</h1>
+        <ul id="quakeList" class="quakeStyles"></ul>
+    </main>
+</body>
+
 </html>

@@ -23,4 +23,19 @@ async function searchFoods(url, query) {
     return await getJSON(url, options);
 }
 
-console.log(searchFoods(baseUrl + "search", "apple"));
+//console.log(searchFoods(baseUrl + "search", "apple"));
+document.getElementById('query').addEventListener('keyup', search);
+
+async function search() {
+    const searchString = document.getElementById('query').value;
+    if(searchString.length > 2) {
+        const response = await searchFoods(baseUrl + "search", searchString);
+        renderList(response.foods);
+    }
+}
+
+function renderList(list) {
+    document.getElementById('list').innerHTML = list.map((item) => {
+        return `<li>${item.description}</li>`;
+    }).join('');
+}
