@@ -1,0 +1,9 @@
+W12 Reading Notes, Questions and Report
+
+Report:
+1. What did I do since the last meeting?
+I used the new API key to begin calling searches for nearby schools using either a city or a geoLocation call.
+2. What am I going to do next?
+This week I will finish getting the API data to display on the site and allow the user to specify search criteria.
+3. What are my blockers?
+My blockers this week will be displaying the data properly and being able to get the correct data as requested by the user.

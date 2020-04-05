@@ -29,7 +29,7 @@ export default class QuakesController {
       try {
         // try to get the position using getLocation()
         const posFull = await getLocation();
-        // if we get the location back then set the latitude and longitude into this.position
+        // if we get the location back then se t the latitude and longitude into this.position
         this.position.lat = posFull.coords.latitude;
         this.position.lon = posFull.coords.longitude;
       } catch (error) {

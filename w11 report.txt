@@ -1,0 +1,10 @@
+W11 Reading Notes, Questions and Report
+
+Report:
+1. What did I do since the last meeting?
+I received an API key from the website and I built some of the website design to prepare for the search features.
+2. What am I going to do next?
+This week I will look at the API documentation and add that to receive the JSON data and display it on the page.
+3. What are my blockers?
+My blockers this week will be getting the API to return and implementing the proper filtering of that data to show
+what the users wants to see.

@@ -1,0 +1,9 @@
+W13 Reading Notes, Questions and Report
+
+Report:
+1. What did I do since the last meeting?
+I worked to complete my project with all the functionality working.
+2. What am I going to do next?
+This was the last week of the semester but I plan to figure out why my XML response is giving me a parse error.
+3. What are my blockers?
+My blockers are the xml parse error because that is keeping me from completing my site.
